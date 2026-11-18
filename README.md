@@ -15,6 +15,10 @@ make evidence
 
 The numerical work uses the Python standard library and the small source extracts in this checkout. For charts, install the optional plotting dependency in a virtual environment with `python -m pip install -e '.[figures]'`, then run `make figures PYTHON=python`. The checked-in figures were rendered with Matplotlib 3.11.2. Outputs are deterministic CSVs rounded to six decimals at export.
 
+## Notebooks
+
+Open [Reserves and production](notebooks/01-reserves-and-production.ipynb) for the historical stock and flow comparison, then [Supply and demand](notebooks/02-supply-and-demand.ipynb) to vary project delays, demand growth and end uses. Run all cells with a Python 3.9+ Jupyter kernel from the repository root or the notebooks directory. The notebooks call the same models as the command line.
+
 ## Experiments
 
 | Question | Evidence and result |
